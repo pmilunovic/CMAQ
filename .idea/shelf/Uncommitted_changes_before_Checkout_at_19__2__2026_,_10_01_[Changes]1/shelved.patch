@@ -1,0 +1,34 @@
+Index: .idea/.gitignore
+===================================================================
+diff --git a/.idea/.gitignore b/.idea/.gitignore
+new file mode 100644
+--- /dev/null	(date 1770626708771)
++++ b/.idea/.gitignore	(date 1770626708771)
+@@ -0,0 +1,10 @@
++# Default ignored files
++/shelf/
++/workspace.xml
++# Ignored default folder with query files
++/queries/
++# Datasource local storage ignored files
++/dataSources/
++/dataSources.local.xml
++# Editor-based HTTP Client requests
++/httpRequests/
+Index: package.json
+===================================================================
+diff --git a/package.json b/package.json
+new file mode 100644
+--- /dev/null	(date 1770626752259)
++++ b/package.json	(date 1770626752259)
+@@ -0,0 +1,10 @@
++{
++  "name": "cmaq",
++  "version": "1.0.0",
++  "description": "",
++  "main": "index.js",
++  "scripts": {
++    "test": "echo \"Error: no test specified\" && exit 1"
++  },
++  "private": true
++}
